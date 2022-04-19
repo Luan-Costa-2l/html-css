@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 5px;
+}
+
+section {
+    width: 60%;
+}
+
+.lateral_r {
+    width: 40%;
+    display: inline;
+    background-color: lightblue;
+
+}
+
+.lateral_l {
+    width: 60%;
+    display: inline-block;
+    background-color: lightgreen;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    bottom: -8px;
+    left: -8px;
+    color: white;
+    background-color: black;
+}
+

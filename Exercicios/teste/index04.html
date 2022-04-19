@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras nas caixas</title>
+    <style>
+        body {
+            font: 1em Arial, Helvetica, sans-serif;
+            background-color: peachpuff;
+        }
+
+        header {
+            background-color: black;
+            margin: -8px -8px -8px;
+            color: white;
+        }
+
+        #pict_header {
+            width: 50px;
+        }
+
+        header > ul {
+            display: inline-block;
+            margin-left: 0px;
+        }
+
+        .caixa {
+            background-color: snow;
+            width: 400px;
+            height: 119px;
+            margin: auto;
+            padding: 1px 10px;
+            box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.425);
+            border-radius: 5px 20px 20px 20px;
+            margin-bottom: 10px;
+        }
+
+        .caixa:hover {
+            width: 410px;
+            height: 124px;
+            box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.425);
+            margin-bottom: 13px;
+            margin-top: 13px;
+        }
+
+        article > h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png" alt="imagem css" id="pict_header">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>person</li>
+        </ul>
+    </header>
+    <hr>
+    <article class="caixa">
+        <h1>Usando sombras</h1>
+        <p>Vamos aprender a usar sombras com esse exemplo simples.</p>
+    </article>
+    <article class="caixa">
+        <h1>Experimentando sombras</h1>
+        <p>Vamos testar o uso de sombras com esse exemplo simples.</p>
+    </article>
+    <article class="caixa">
+        <h1>Experimentos</h1>
+        <p>Vamos experimentar com esse exemplo simples.</p>
+    </article>
+</body>
+</html>

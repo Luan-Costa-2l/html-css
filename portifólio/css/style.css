@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menuHorizontal ul {
+    max-width: 800px;
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+}
+
+#menuHorizontal ul li {
+    display: inline;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+#menuHorizontal ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px 10px 12px;
+    transition-duration: 0.5s;
+}
+
+#menuHorizontal ul li a:hover {
+    background-color: rgb(24, 24, 233);
+    transition-duration: 0.2s;
+}
+
+#menuHorizontal ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 24, 233);
+    font-weight: bold;
+}
+
+#menuHorizontal ul li:last-child a:hover {
+    text-decoration: underline;
+}
