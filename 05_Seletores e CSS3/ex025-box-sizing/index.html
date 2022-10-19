@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <style>
+        /*O box-sizing veio como uma solução para o problema de definição de tamanho das 'caixas' pois era necessário considerar o tamanho do padding e outros para diminuir do tamanho do conteúdo em si, mas com sua chegada permitiu que isso seja feito altomaticamente dando ao elemento o valor border-box*/
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: #FF0000;
+            border: 10px solid #FFFF00;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div>Texto 1</div>
+</body>
+</html>

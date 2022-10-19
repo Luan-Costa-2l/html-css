@@ -1,0 +1,66 @@
+/*
+Valores para flex-direction: 
+row(padrão) - em horizontal (um do lado do outro)
+row-reverse - em horizontal ao contrário
+column - em coluna (de cima pra baixo)
+column-reverse - em coluna ao contrário
+*/
+
+.container {
+    background-color: #777;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.container div {
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    flex: 1;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #777;
+    margin: 10px;
+}
+
+/*
+Aqui o valor de flex diz o tamanho que cada item lá dentro deve ter, por exempo o valor 1 fala que ele deve ter valor igual ao aos outros o 2 diz q ele deve ter 2 vezes o tamanho normal 3 diz que tem que ter 3 vez e assim vai.
+*/
+
+.div1 {
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    flex: 1;
+}
+
+.div2 {
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    flex: 1;
+}
+
+.div3 {
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    flex: 1;
+}
+
+.div4 {
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    flex: 3;
+}

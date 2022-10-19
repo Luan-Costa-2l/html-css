@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lobster', cursive;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=text], textarea, select {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    outline: 0;
+    display: block;
+}
+
+textarea {
+    height: 200px;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    background-color: #eee;
+}
+
+button:hover {
+     background-color: #DDD;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página</title>
+</head>
+<body>
+    <form action="caminho.html" method="post" enctype="multipart/form-data">
+
+        <!-- Quando tiver coisas como fotos e outros(type="file") arquivos adicione o enctype="multipart/form-data" -->
+            
+        <input type="hidden" name="country" value="BR">
+        <!-- type hidden são inputs que não aparecem para o usuário pois não precisan de contato direto com ela-->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome:<br>
+                <input type="text" name="name" required minlength="3" maxlength="6">
+            </label><br>
+            <label>
+                Sobrenome:<br>
+                <input type="text" name="lastname">
+            </label><br>
+            <label>
+                Foto:<br>
+                <input type="file" name="photo" accept="image/*">
+            </label><br>
+            <label>
+                E-mail:<br>
+                <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="endereço de e-mail" required>
+            </label><br>
+            <!-- A bagunça dentro do pattern é a validação de formato de e-mail-->
+            <label>
+                Idade:<br>
+                <input type="number" name="age" step="1" min="18" max="24">
+            </label><br>
+
+            <!-- required torna obrigatório o preenchimento do campo-->
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa:<br>
+                <input type="text" name="companyname">
+            </label><br>
+            <label for="">
+                Cargo na empresa:<br>
+                <input type="text" name="companyjobtitle">
+            </label><br>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

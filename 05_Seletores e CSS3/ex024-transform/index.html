@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        /*com o scale eu posso mudar o tamanho da algo utilizando a proporção do tamanho original*/
+        .text1 {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            background-color: #F00;
+            transform: scale(2, 1);
+            margin-bottom: 30px;
+        }
+        /*permite rotacionar o item*/
+        .text2 {
+            width: 200px;
+            height: 200px;
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+            background-color: #F00;
+            transform: rotate(90deg);
+        }
+        /*uma manipulação mais 3d (estudar mais)*/
+        .text3 {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            background-color: #F00;
+            transform: skew(20deg, 20deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="text1">Texto 1</div>
+
+    <div class="text2">Texto 2</div>
+
+    <div class="text3">Texto 3</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações</title>
+    <style>
+        q {
+            color: #555;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        <q></q> uma tag semântica que diz ao navegador que aquele trecho é uma citação
+    -->
+    <p>Como o famoso Walt Disney costumava dizer: <q>Todos os nossos sonhos podem se tornar realidade se nós tivermos a coragem de ir atrás deles</q></p>
+
+    <!--
+        <blockquote></blockquote> é uma tag semântica para sitações maiores que identa a citação e permite-nos dizer de onde ela é ao navegador por meio do link da citação colocado no atributo cite da  tag
+    -->
+    <p>
+        Como a bíblia fala:
+        <blockquote cite="https://www.bibliaonline.com.br/acf/pv/18/10+">
+            Torre forte é o nome do senhor; a ela correrá o justo, e estará em alto refúgio. Provérbios 18:18
+        </blockquote>
+    </p>
+</body>
+</html>

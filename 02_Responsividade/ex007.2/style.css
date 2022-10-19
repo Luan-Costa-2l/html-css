@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+/*
+    ex.: width: max(50%, 300px);
+    Esse estilo escolherá qual é o maior 50% da tela ou 300px e o aplicará.
+    O mesmo vale para o min(50%, 300px); mas dessa vez ele escolherá o menor
+*/
+img {
+    width: max(50%, 300px);
+}
+
+.container {
+    background-color: #333;
+    width: calc(100% - 20px);
+    height: 200px;
+}

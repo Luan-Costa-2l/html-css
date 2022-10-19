@@ -1,0 +1,19 @@
+body .login {
+    box-sizing: border-box;
+}
+
+.login {
+    background-color: #ccc;
+    width: 210px;
+    height: 165px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+

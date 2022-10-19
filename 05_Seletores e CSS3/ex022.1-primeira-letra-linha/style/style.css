@@ -1,0 +1,17 @@
+body {
+    text-align: justify;
+    padding: 15px;
+}
+
+/*Selecionando a primeira letra e primeira linha*/
+
+p::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*Selecionando a primeira linha*/
+
+p::first-line {
+    background-color: #fffb00;
+}

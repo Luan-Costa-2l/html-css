@@ -1,0 +1,20 @@
+/*
+com a propriedade grid-auto-rows podemos definir o height de todas as linhas existentes sem editar linhas imaginárias como com o grid-template-rows.
+
+o minmax(x, y) pode ser usado no grid para definir o valor minimo (x) e o máximo (y) seja largura ou altura.
+*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.item {
+    background-color: #00F;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}

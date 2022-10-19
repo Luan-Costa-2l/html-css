@@ -1,0 +1,17 @@
+div {
+    background-color: #00F;
+    width: 100px;
+    height: 100px;
+}
+
+/*Primeiro elemento*/
+div:first-child {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/*Último elemento*/
+div:last-child {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

@@ -1,0 +1,54 @@
+table, td {
+    border: 2px solid #000;
+}
+
+@media (min-width: 1000px) {
+    body {
+        background-color: #F00;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    body {
+        background-color: #0F0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+    body {
+        background-color: #00F;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 14px;
+    }
+}
+
+@media only print {
+    body {
+        background-color: #FFF;
+    }
+
+    h1 {
+        font-size: 14pt;
+        font-weight: normal;
+    }
+
+    .noPrint {
+        display: none;
+    }
+}

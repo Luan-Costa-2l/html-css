@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo and audio</title>
+</head>
+<body>
+    <h1>Título</h1>
+    <h2>Usando a tag &lt; video &gt;</h2>
+
+    <video width="420" height="235" controls>
+        <source src="midia/exemple-video.mp4" type="video/mp4">
+    </video>
+    <!--
+        além do atributo controls também temos o autoplay que faz com que o video comece quando a página for carregada (os dois atributos podem ser usados juntos)
+    -->
+
+    <h2>Usando a tag &lt; audio &gt;</h2>
+
+    <audio controls>
+        <source src="midia/music.mp3" type="audio/mpeg">
+    </audio>
+    <!--
+        O atributo controls fara aparecer os controles
+        O atributo loop fará com que a midia (musica) volte a tocar do começo quando acabar.
+        O atributo muted fará com qua a midia comece com o mute ativado.
+        O atributo preload fará com que o audio comece a carregar antes mesmo do usuário dar o play
+    -->
+</body>
+</html>

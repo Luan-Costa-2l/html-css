@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Página de teste</h1>
+
+    <h2>Área de cadastro</h2>
+
+    <form action="usuarios/dados.html" method="get">
+        <label for="login">Nome completo:</label>
+        <input type="text" name="nome" id="login">
+        <br><br>
+
+        <label for="">
+            Descrição:
+            <textarea name="descricao"></textarea>
+        </label>
+
+        <select name="categoria">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+            <option value="4">Valor 4</option>
+            <option value="5">Valor 5</option>
+            <option value="6">Valor 6</option>
+            <option value="7">Valor 7</option>
+            <option value="8">Valor 8</option>
+        </select>
+
+        <label>
+            <input type="checkbox">
+            Eu li e concordo com os <a href="#" target="_blank">termos</a>
+        </label>
+
+        <button>Fazer cadastro</button>
+    </form>
+
+    <form action="usuarios/dados.html" method="get">
+ 
+        <input type="submit" value="Fazer cadastro">
+        <!--
+            text(email, password)
+            radio
+            checkbox
+            submit
+        -->
+    </form>
+</body>
+</html>

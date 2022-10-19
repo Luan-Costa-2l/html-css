@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: lightblue;
+}
+
+nav {
+    height: 50px;
+    background-color: #444;
+}
+
+nav a {
+    color: #fff;
+}
+
+footer {
+    height: 100px;
+    background-color: #ccc;
+}

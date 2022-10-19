@@ -1,0 +1,27 @@
+:root {
+    --bg-color: #FFF;
+    --bg-second: #333;
+    --font-color: #F00;
+    --font-size: 25px;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+
+h1 {
+    color: var(--font-color);
+}
+
+.container {
+    background-color: var(--bg-second);
+    color: var(--font-color, #500);
+}
+/* o #500 dps da vírgula ta dizendo que se o primeiro valor nao for encontrado ou funcionar o navegador deve usar o que esta dps da virgula*/
+
+@media (max-width: 450px) {
+    :root {
+        --font-size: 15px;
+    }
+}

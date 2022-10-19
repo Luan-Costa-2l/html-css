@@ -1,0 +1,31 @@
+.container {
+    background-color: #CCC;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "item1 item1 item2"
+    "item3 . item2"
+    "item4 item4 item4"
+    ;
+}
+
+.item {
+    background-color: #00F;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.item1 {
+    grid-area: item1;
+}
+.item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+}
+.item4 {
+    grid-area: item4;
+}

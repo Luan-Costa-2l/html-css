@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik Moonrocks', cursive;
+    margin: 50px;
+}
+
+table {
+    width: 600px;
+}
+
+thead {
+    background-color: #ccc;
+}
+
+tbody tr:hover {
+    background-color: #eee;
+}
+
+body td{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}

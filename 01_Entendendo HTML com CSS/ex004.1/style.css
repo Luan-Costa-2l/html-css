@@ -1,0 +1,12 @@
+fieldset {
+    background-color: #EEE;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: #FF0000;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f00;
+}

@@ -1,0 +1,48 @@
+/*
+Nesse exercício estou estudando algums diferentes seletores para ajudar na hora de especificar as tags que desejo estilizar
+*/
+section {
+    margin-bottom: 20px;
+}
+
+input, a {
+    display: block;
+}
+/*Dessa forma irá aplicar o estilo a todas as tags que tiverem esse atributo.
+É possível especificar usando o nome(ou class/id) antes do atributo.*/
+[required] {
+    background-color: #0f0;
+}
+
+input[type="password"] {
+    background-color: #f00;
+}
+
+a[href*="google"] {
+    padding: 7px;
+    font-size: 20px;
+}
+
+/*Vai estilizar apenas os links que comecem com https*/
+
+a[href^="https"] {
+    background-color: #0f0;
+}
+
+/*Apenas os que terminarem com 419*/
+
+a[href$="419"] {
+    color: white;
+    font-weight: bold;
+}
+
+div {
+    margin: 20px;
+    height: 30px;
+}
+
+/*Selecionando elementos vazios*/
+
+div:empty {
+    background-color: #FF0000;
+}

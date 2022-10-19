@@ -1,0 +1,43 @@
+/*
+Row-gap dará um espaçamento entre as linhas e o Column-gap um entre as colunas, podemos abreviar para gap: 10px 10px;.
+
+grid-template-columns me permite controlar o número e largura das colunas, já o grid-template-rows permite o controle apenas da altura de cada coluna.
+
+a unidade fr(representa uma fração) pode ser descrita como uma unidade de medida flexivel. Ex.: se usar grid-template-columns: 1fr 2fr; a segunda coluna coluna vai ter o dobro da largura da primeira e irão ocupar todo o espaço disponível.
+*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 200px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 100px;
+}
+
+.item {
+    background-color: #00F;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+/*
+grid-template-columns: repeat(3, 1fr); o 3 dentro do repeat indica o número de vezes que o segundo item (1fr) será repetido.
+
+o auto-fill vai repetir o segundo item até que o espaço disponível acabe.
+*/
+.container_two {
+    display: grid;
+    grid-template-columns: 100px repeat(auto-fill, 100px) 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.item_two {
+    background-color: #0F0;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}

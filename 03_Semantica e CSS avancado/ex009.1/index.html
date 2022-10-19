@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atributos inputs</title>
+</head>
+<body>
+    <!--
+        Atributos:
+        * requerid - torna o preenchimento o brigatório.
+
+        * placeholder - colocar um valor (nome, número, etc.) dentro do input que serve como meio de orientação para o usuário.
+
+        * auto focus - faz com que assim que a página for carregada o input já esteja pronto para digitar (sem a necessidade de clicar nele).
+
+        * minlenght e maxlenght - o primeiro permite definir um número mínimo de caracters no campo e o outro o número máximo.
+
+        * autocomplete - podemos dar os valores "on" e "off", quando está em on o atributo dará sugestões para completar o campo com informações já digitadas (cuidado onde usa, pode acabar entregando dados pessoais).
+    -->
+    <form action="#" method="post" class="login">
+
+        Usuário:
+        <input type="text" name="user" requerid autofocus  placeholder="Ex.: Name" autocomplete="off">
+
+        Senha:
+        <input type="password" name="password" required placeholder="........" minlength="8" autocomplete="off">
+
+        <input type="submit" name="enviar">
+    </form>
+
+    <!--
+        Outros atributos:
+        size - o valor que colocar-mos nesse atributo dirá ao navegador que o input deverá ter o tamanho de x caracteres (tamanho baseado no tamanho das letras).
+    -->
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #999;
+    /*o all aqui vai aplicar a transição a tudo que for aplicado a esse elemento.
+    linear faz com que ele comece e termine na mesma velocidade ( há vários outros meios).*/
+    transition: all 1s linear;
+}
+
+.exemplo:hover {
+    width: 300px;
+    background-color: #0f0;
+}
+
+a {
+    color: #000;
+    transition: all 0.5s linear;
+}
+
+a:hover {
+    color: #f00;
+}

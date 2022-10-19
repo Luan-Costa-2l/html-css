@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.div {
+    display: inline-block;
+}
+
+#test {
+    background-color: #0F0;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#test2 {
+    background-color: #00F;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#test3 {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background: linear-gradient(-90deg, #F00, #0f0, #00F);
+}

@@ -1,0 +1,27 @@
+/*os alinhamentos que usei aqui são para linha (row), caso estejam em coluna o "justify-content" fará o alinhamento vertical e o "align-items" fará o alinhamento horizontal*/
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #555;
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+    height: 500px;
+    margin: 10px;
+}
+
+/*
+    Se eu definir uma largura maior que do que o espaço disponível os icones ficarão com a maior largura possível que couber na tela, mas não quebrará a linha.
+    Se quiser que quebre a linha você pode usar o estilo "flex-wrap=wrap", ai mesmo que eles não caibam em uma linha eles passarão para a próxima.
+*/
+.container div {
+    font-size: 20px;
+    background-color: #f00;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/*
+PS: há a config de estilo "flex-flow" onde podemos definir  a organização dos itens em flex (row, column, etc) e a quebra de linha (wrap ou nowrap) ex.: "flex-flow= row wrap"
+*/
